@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    width: 100%;
+    background: rgb(34, 32, 32);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.calculatorDepozit{
+    border: 5px solid orange;
+     width: 800px;
+     height: 400px;
+     border-radius: 10px;
+     background-color: rgb(44, 40, 40);
+     margin-left: 250px;
+     padding: 20px;
+     text-align: center;
+}
+.calculatorDepozit h1{
+    text-align: center;
+   font-weight: bold;
+   font-family: sans-serif;
+   font-size: 35px;
+   margin-top: 10px;
+   margin-bottom: 20px;
+   color: orange;
+}
+.calculatorDepozit .information{
+    font-family: sans-serif;
+   font-size: 20px;
+   margin-top: 10px;
+   margin-bottom: 20px;
+   color: orange;
+}
+.calculatorDepozit label{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 15px;
+    color: orange;
+}
+.calculatorDepozit input{
+    width: 150px;
+    height: 30px;
+    border: 2px solid orange;
+    border-radius: 3px;
+}
+.calculatorDepozit button{
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    border: 3px solid orange;
+    border-radius: 5px;
+}
+.calculatorDepozit button:hover{
+    background-color: orange;
+}
+ .resultDepozit {
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 15px;
+    color: orange;
+
+}

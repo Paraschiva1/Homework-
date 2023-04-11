@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="depozit.css">
+    <title>Calculator depozite</title>
+</head>
+<body>
+    <div class="main">
+        <div class="calculatorDepozit">
+          <h1>Calculator depozite</h1>
+          <p class="information">Acest calculator te ajuta sa estimezi cat poti obtine la o dobanda anuala de 1%, daca economisesti,
+             folosind depozite, pe termen  mediu sau lung.</p>
+          <label for="valoareDepozit">Suma depusă(lei) </label><input class="valoareDepozit" type="number" required><br>
+          <label for="perioadaDepozit">Durată depozit(ani) </label><input class="perioadaDepozit" type="number" required><br>
+          <label for="dobandaAnuala">Dobanda Anuala(%)</label><input class = "dobandaAnuala" type="number" min="1" max="1" required> <br>
+          <button class="calculeazaDepozit" type="button">Calculeaza</button>
+          <p class="resultDepozit"></p>
+          <script type="text/javascript" src="functionDepozit.js"></script>
+         </div>
+</body>
+</html>

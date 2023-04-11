@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    width: 100%;
+    background: rgb(34, 32, 32);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+ .calculator {
+     border: 3px solid orange;
+     width: 600px;
+     height: 300px;
+     border-radius: 10px;
+     background-color: rgb(44, 40, 40);
+     margin-left: 20px;
+     float: left;
+     padding: 20px;
+     
+
+}
+ .calculator h1{
+   text-align: center;
+   font-weight: bold;
+   font-family: sans-serif;
+   font-size: 35px;
+   margin-top: 10px;
+   margin-bottom: 20px;
+   color: orange;
+}
+.calculator label{
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: orange;
+}
+.calculator input{
+    width: 100px;
+    height: 30px;
+    border: 2px solid orange;
+    border-radius: 3px;
+}
+.calculator button{
+    text-align: center;
+    width: 150px;
+    height: 35px;
+    margin-left: 170px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    border: 3px solid orange;
+    border-radius: 5px;
+}
+.calculator button:hover{
+    background-color: orange;
+    
+}
+.information{
+    border: 3px solid orange;
+    width: 600px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: rgb(44, 40, 40);
+    float: right;
+    padding: 20px;
+    margin-right: 20px;
+    
+     
+}
+.information h2{
+    text-align: center;
+   font-weight: bold;
+   font-family: sans-serif;
+   font-size: 35px;
+   margin-top: 10px;
+   margin-bottom: 20px;
+   color: orange;
+}
+.information p{
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: orange;
+}
+.information li{
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: orange;
+}
+.result{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 15px;
+    color: orange;
+
+}
